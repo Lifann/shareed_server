@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# start doker deamon if not exist.
+sudo systemctl start docker
+
 # pull a docker image from docker hub
 docker pull oppenheimli/shareed_server:v1.0
 
